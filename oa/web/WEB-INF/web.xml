@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+    <!--部门列表-->
+    <servlet>
+        <servlet-name>list</servlet-name>
+        <servlet-class>com.bjpowernode.oa.DeptListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>list</servlet-name>
+        <url-pattern>/dept/list</url-pattern>
+    </servlet-mapping>
+    <!--部门详情-->
+    <servlet>
+        <servlet-name>detail</servlet-name>
+        <servlet-class>com.bjpowernode.oa.DeptDetailServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>detail</servlet-name>
+        <url-pattern>/dept/detail</url-pattern>
+    </servlet-mapping>
+    <!--部门删除-->
+    <servlet>
+        <servlet-name>delete</servlet-name>
+        <servlet-class>com.bjpowernode.oa.DeptDeleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>delete</servlet-name>
+        <url-pattern>/dept/delete</url-pattern>
+    </servlet-mapping>
+    <!--部门新增-->
+    <servlet>
+        <servlet-name>save</servlet-name>
+        <servlet-class>com.bjpowernode.oa.DeptSaveServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>save</servlet-name>
+        <url-pattern>/dept/save</url-pattern>
+    </servlet-mapping>
+    <!--跳转到修改页面-->
+    <servlet>
+        <servlet-name>edit</servlet-name>
+        <servlet-class>com.bjpowernode.oa.DeptEditServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>edit</servlet-name>
+        <url-pattern>/dept/edit</url-pattern>
+    </servlet-mapping>
+
+
+    <!--部门修改-->
+    <servlet>
+        <servlet-name>modify</servlet-name>
+        <servlet-class>com.bjpowernode.oa.DeptModifyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>modify</servlet-name>
+        <url-pattern>/dept/modify</url-pattern>
+    </servlet-mapping>
+</web-app>

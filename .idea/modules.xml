@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bank-mvc/bank-mvc.iml" filepath="$PROJECT_DIR$/bank-mvc/bank-mvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/food/food.iml" filepath="$PROJECT_DIR$/food/food.iml" />
+      <module fileurl="file://$PROJECT_DIR$/food2/food2.iml" filepath="$PROJECT_DIR$/food2/food2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb.iml" filepath="$PROJECT_DIR$/javaweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oa/oa.iml" filepath="$PROJECT_DIR$/oa/oa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oa2/oa2.iml" filepath="$PROJECT_DIR$/oa2/oa2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oa3/oa3.iml" filepath="$PROJECT_DIR$/oa3/oa3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servlet01/servlet01.iml" filepath="$PROJECT_DIR$/servlet01/servlet01.iml" />
+    </modules>
+  </component>
+</project>

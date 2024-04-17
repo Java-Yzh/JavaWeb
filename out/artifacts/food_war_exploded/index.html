@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>随机菜品</title>
+</head>
+<body>
+    <h1>你是否在为了吃什么反而烦恼呢，如果是的话就让小豪来为你做决定吧</h1>
+    <h2>外出聚餐</h2>
+    <input type="button" value="聚餐形式" onclick="outfood()">
+    <h3>学校食堂</h3>
+    <input type="button" value="随机菜品" onclick="food()">
+
+<script type="text/javascript">
+    function food() {
+        var ok = window.confirm("亲，确认要生成随机菜品吗")
+        if (ok) {
+            document.location.href = "/food/suiji";
+        }
+    }
+    function outfood() {
+        var ok = window.confirm("亲，确认要生成随机菜品吗")
+        if (ok) {
+            document.location.href = "/food/out";
+        }
+    }
+</script>
+
+</body>
+</html>
